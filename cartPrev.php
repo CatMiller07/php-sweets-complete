@@ -1,10 +1,5 @@
 <?php // some code
-require_once('./Model/Product.php');
-$products = new Products();
 
-require_once('./View/View.php');
-$view = new View();
-$cartList = $products->getShoppingCart();
 
 $price1 = 2.50;
 $price2 = 5.00;
